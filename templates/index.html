@@ -1,2 +1,30 @@
-<h1 style="color:purple">Hola Mundo :D </h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenida</title>
+  <!-- Incluyendo Tailwind CSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
 
+  <!-- Contenedor principal -->
+  <div class="flex items-center justify-center min-h-screen">
+
+    <!-- Caja de bienvenida -->
+    <div class="text-center p-8 bg-gradient-to-r from-green-800 to-purple-900 rounded-xl shadow-lg">
+      <h1 class="text-5xl font-semibold text-white mb-4">¡Bienvenido!</h1>
+      <p class="text-lg text-gray-300 mb-6">Nos alegra tenerte con nosotros. ¡Explora lo que tenemos para ti!</p>
+      <button class="px-6 py-3 bg-red-700 hover:bg-red-800 text-white text-lg rounded-full transition duration-300">
+        Empezar
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Efectos de fondo -->
+  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?nature,dark'); opacity: 0.2;"></div>
+
+</body>
+</html>
